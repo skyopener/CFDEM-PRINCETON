@@ -1,0 +1,15 @@
+
+//   log_compileCFDEMcoupling_cfdemSolverIB_cfdemSolverIB-2013-12-12-01:42   //
+
+/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/applications/solvers/cfdemSolverIB
+
+removing all .dep files ...
+Making dependency list for source file cfdemSolverIB.C
+could not open file RASModel.H for source file cfdemSolverIB.C
+SOURCE=cfdemSolverIB.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/dynamicFvMesh/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/dynamicMesh/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/dynamicMesh/dynamicFvMesh/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/dynamicMesh/dynamicMesh/lnInclude  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemSolverIB.o
+In file included from cfdemSolverIB.C:83:0:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H: In function ‘int main(int, char**)’:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H:3:15: warning: unused variable ‘nOuterCorr’ [-Wunused-variable]
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H:15:16: warning: unused variable ‘transonic’ [-Wunused-variable]
+mkdir: `': No such file or directory
+make: *** [/cfdemSolverIB] Error 1

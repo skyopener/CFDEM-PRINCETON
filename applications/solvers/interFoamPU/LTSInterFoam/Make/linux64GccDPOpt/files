@@ -1,0 +1,7 @@
+# 1 "files"
+# 1 "<command-line>"
+# 1 "files"
+LTSInterFoam.C
+MULES.C
+
+EXE = $(FOAM_APPBIN)/LTSInterFoam

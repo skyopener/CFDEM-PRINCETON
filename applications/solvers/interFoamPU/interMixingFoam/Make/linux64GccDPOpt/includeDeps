@@ -1,0 +1,3 @@
+include incompressibleThreePhaseMixture/threePhaseMixture.dep
+include threePhaseInterfaceProperties/threePhaseInterfaceProperties.dep
+include interMixingFoam.dep

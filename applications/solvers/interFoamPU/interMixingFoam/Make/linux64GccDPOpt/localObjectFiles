@@ -1,0 +1,4 @@
+LOCAL_OBJECTS = \
+threePhaseMixture.o\
+threePhaseInterfaceProperties.o\
+interMixingFoam.o

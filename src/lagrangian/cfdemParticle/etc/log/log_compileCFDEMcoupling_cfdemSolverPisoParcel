@@ -1,0 +1,14 @@
+
+//   log_compileCFDEMcoupling_cfdemSolverPisoParcel_cfdemSolverPisoParcel-2014-03-19-16:27   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/solvers/cfdemSolverPisoParcel
+
+removing all .dep files ...
+Making dependency list for source file cfdemSolverPisoParcel.C
+could not open file RASModel.H for source file cfdemSolverPisoParcel.C
+SOURCE=cfdemSolverPisoParcel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/cfdTools  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemSolverPisoParcel.o
+In file included from cfdemSolverPisoParcel.C:77:0:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H: In function ‘int main(int, char**)’:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H:15:16: warning: unused variable ‘transonic’ [-Wunused-variable]
+g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/cfdTools  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPOpt/cfdemSolverPisoParcel.o -L/opt/OpenFOAM/OpenFOAM-2.2.x/platforms/linux64GccDPOpt/lib \
+	     -L/home/shakti/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/lib -lincompressibleTransportModels -lincompressibleTurbulenceModel -lincompressibleRASModels -lincompressibleLESModels -lfiniteVolume -llagrangianCFDEM-PRINCETON -lOpenFOAM -ldl   -lm -o /home/shakti/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/bin/cfdemSolverPisoParcel

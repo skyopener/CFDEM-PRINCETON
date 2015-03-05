@@ -1,0 +1,4 @@
+OBJECTS = \
+$(OBJECTS_DIR)/threePhaseMixture.o\
+$(OBJECTS_DIR)/threePhaseInterfaceProperties.o\
+$(OBJECTS_DIR)/interMixingFoam.o

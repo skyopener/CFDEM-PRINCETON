@@ -1,0 +1,12 @@
+
+//   log_compileCFDEMcoupling_twoPhaseEulerPimpleFoam_twoPhaseEulerPimpleFoam-2014-05-26-13:22   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/solvers/twoPhaseEulerPimpleFoam
+
+removing all .dep files ...
+Making dependency list for source file twoPhaseEulerPimpleFoam.C
+could not open file kineticTheoryModel.H for source file twoPhaseEulerPimpleFoam.C
+SOURCE=twoPhaseEulerPimpleFoam.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/lnInclude -IturbulenceModel -IkineticTheoryModels/lnInclude -IinterfacialModels/lnInclude -IphaseModel/lnInclude -Iaveraging -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/cfdTools  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/twoPhaseEulerPimpleFoam.o
+twoPhaseEulerPimpleFoam.C:43:32: fatal error: kineticTheoryModel.H: No such file or directory
+compilation terminated.
+make: *** [Make/linux64GccDPOpt/twoPhaseEulerPimpleFoam.o] Error 1

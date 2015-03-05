@@ -1,0 +1,6 @@
+# 1 "files"
+# 1 "<command-line>"
+# 1 "files"
+porousInterFoam.C
+
+EXE = $(FOAM_APPBIN)/porousInterFoam

@@ -1,0 +1,4 @@
+SOURCE = \
+incompressibleThreePhaseMixture/threePhaseMixture.C\
+threePhaseInterfaceProperties/threePhaseInterfaceProperties.C\
+interMixingFoam.C

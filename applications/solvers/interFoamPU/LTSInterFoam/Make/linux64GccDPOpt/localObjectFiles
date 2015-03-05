@@ -1,0 +1,3 @@
+LOCAL_OBJECTS = \
+LTSInterFoam.o\
+MULES.o

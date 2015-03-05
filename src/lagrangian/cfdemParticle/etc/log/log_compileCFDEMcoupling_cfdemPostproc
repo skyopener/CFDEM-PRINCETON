@@ -1,0 +1,15 @@
+
+//   log_compileCFDEMcoupling_cfdemPostproc_cfdemPostproc-2014-03-29-17:14   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/utilities/cfdemPostproc
+
+removing all .dep files ...
+Making dependency list for source file cfdemPostproc.C
+could not open file RASModel.H for source file cfdemPostproc.C
+SOURCE=cfdemPostproc.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemPostproc.o
+In file included from cfdemPostproc.C:44:0:
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:149:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:151:37: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:157:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPOpt/cfdemPostproc.o -L/opt/OpenFOAM/OpenFOAM-2.2.x/platforms/linux64GccDPOpt/lib \
+	     -L/home/hema2/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/lib -lincompressibleRASModels -lincompressibleLESModels -lincompressibleTransportModels -lfiniteVolume -llagrangianCFDEM-PRINCETON  -lOpenFOAM -ldl   -lm -o /home/hema2/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/bin/cfdemPostproc

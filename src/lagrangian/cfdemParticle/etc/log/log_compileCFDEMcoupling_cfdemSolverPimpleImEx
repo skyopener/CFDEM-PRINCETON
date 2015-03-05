@@ -1,0 +1,20 @@
+
+//   log_compileCFDEMcoupling_cfdemSolverPimpleImEx_cfdemSolverPimpleImEx-2014-03-20-07:59   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/solvers/cfdemSolverPimpleImEx
+
+removing all .dep files ...
+Making dependency list for source file cfdemSolverPimpleImEx.C
+could not open file cfdemCloud.H for source file cfdemSolverPimpleImEx.C
+could not open file cfdemCloudBiDisperse.H for source file cfdemSolverPimpleImEx.C
+could not open file implicitCouple.H for source file cfdemSolverPimpleImEx.C
+could not open file forceModel.H for source file cfdemSolverPimpleImEx.C
+could not open file clockModel.H for source file cfdemSolverPimpleImEx.C
+could not open file smoothingModel.H for source file cfdemSolverPimpleImEx.C
+could not open file cylPorousZones.H for source file cfdemSolverPimpleImEx.C
+could not open file checkModelType.H for source file cfdemSolverPimpleImEx.C
+could not open file continuityErrorPhiPU.H for source file cfdemSolverPimpleImEx.C
+SOURCE=cfdemSolverPimpleImEx.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/solvers/cfdemSolverPiso -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/fvOptions/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/sampling/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lagrangian/cfdemParticle/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/cylPorousMedia -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lagrangian/cfdemParticle/cfdTools  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemSolverPimpleImEx.o
+cfdemSolverPimpleImEx.C:49:24: fatal error: cfdemCloud.H: No such file or directory
+compilation terminated.
+make: *** [Make/linux64GccDPOpt/cfdemSolverPimpleImEx.o] Error 1

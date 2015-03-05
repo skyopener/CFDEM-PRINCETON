@@ -1,0 +1,19 @@
+
+//   log_compileCFDEMcoupling_cfdemSolverPisoScalar_cfdemSolverPisoScalar-2013-12-12-01:42   //
+
+/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/applications/solvers/cfdemSolverPisoScalar
+
+removing all .dep files ...
+Making dependency list for source file cfdemSolverPisoScalar.C
+could not open file RASModel.H for source file cfdemSolverPisoScalar.C
+SOURCE=cfdemSolverPisoScalar.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/lnInclude -I/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/cfdTools  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemSolverPisoScalar.o
+In file included from cfdemSolverPisoScalar.C:43:0:
+/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:149:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:151:37: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEMcoupling-PUBLIC-2.1.1/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:157:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from cfdemSolverPisoScalar.C:71:0:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H: In function ‘int main(int, char**)’:
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H:3:15: warning: unused variable ‘nOuterCorr’ [-Wunused-variable]
+/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude/readPISOControls.H:15:16: warning: unused variable ‘transonic’ [-Wunused-variable]
+mkdir: `': No such file or directory
+make: *** [/cfdemSolverPisoScalar] Error 1

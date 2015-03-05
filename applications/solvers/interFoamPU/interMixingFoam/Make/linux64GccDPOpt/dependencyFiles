@@ -1,0 +1,4 @@
+DEPENDENCIES = \
+incompressibleThreePhaseMixture/threePhaseMixture.dep\
+threePhaseInterfaceProperties/threePhaseInterfaceProperties.dep\
+interMixingFoam.dep

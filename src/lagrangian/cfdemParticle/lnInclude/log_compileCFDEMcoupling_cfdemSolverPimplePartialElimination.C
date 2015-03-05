@@ -1,0 +1,1 @@
+../etc/log/log_compileCFDEMcoupling_cfdemSolverPimplePartialElimination.C

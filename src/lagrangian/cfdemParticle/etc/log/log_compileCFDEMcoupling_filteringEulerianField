@@ -1,0 +1,20 @@
+
+//   log_compileCFDEMcoupling_filteringEulerianField_filteringEulerianField-2014-03-29-17:14   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/applications/utilities/filteringEulerianField
+
+removing all .dep files ...
+Making dependency list for source file filteringEulerianField.C
+could not open file RASModel.H for source file filteringEulerianField.C
+SOURCE=filteringEulerianField.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I./ann/include -DFULLDEBUG -g -O0 -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/filteringEulerianField.o
+In file included from filteringEulerianField.H:46:0,
+                 from filteringEulerianField.C:32:
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:149:34: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:151:37: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude/forceModel.H:157:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from filteringEulerianField.C:1847:0:
+createFields.H: In function ‘int main(int, char**)’:
+createFields.H:129:10: warning: variable ‘ignoreFinalPimpleIteration’ set but not used [-Wunused-but-set-variable]
+createFields.H:135:10: warning: variable ‘momentumCorrectionPeriodicFlow’ set but not used [-Wunused-but-set-variable]
+g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels/incompressible/singlePhaseTransportModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I./ann/include -DFULLDEBUG -g -O0 -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -Xlinker --add-needed -Xlinker --no-as-needed Make/linux64GccDPOpt/filteringEulerianField.o -L/opt/OpenFOAM/OpenFOAM-2.2.x/platforms/linux64GccDPOpt/lib \
+	     -L/home/hema2/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/lib -lincompressibleTransportModels -lincompressibleTurbulenceModel -lincompressibleRASModels -lincompressibleLESModels -lfiniteVolume -llagrangianCFDEM-PRINCETON -L./ann/lib -lANN -lOpenFOAM -ldl   -lm -o /home/hema2/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/bin/filteringEulerianField

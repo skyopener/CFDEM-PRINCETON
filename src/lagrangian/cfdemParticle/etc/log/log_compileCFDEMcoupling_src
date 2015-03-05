@@ -1,0 +1,742 @@
+
+//   log_compileCFDEMcoupling_src-2015-03-05-11:59   //
+
+/home/hema2/aozel/CFDEM/CFDEM-PRINCETON/src/lagrangian/cfdemParticle
+
+removing all .dep files ...
+wmakeLnInclude: linking include files to ./lnInclude
+Making dependency list for source file cfdemCloud/cfdemCloud.C
+could not open file RASModel.H for source file cfdemCloud/cfdemCloud.C
+Making dependency list for source file subModels/forceModel/forceModel/forceModel.C
+could not open file RASModel.H for source file subModels/forceModel/forceModel/forceModel.C
+Making dependency list for source file subModels/forceModel/forceModel/newForceModel.C
+could not open file RASModel.H for source file subModels/forceModel/forceModel/newForceModel.C
+Making dependency list for source file subModels/forceModel/noDrag/noDrag.C
+could not open file RASModel.H for source file subModels/forceModel/noDrag/noDrag.C
+Making dependency list for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file RASModel.H for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file omp.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C
+Making dependency list for source file subModels/forceModel/GidaspowDrag/GidaspowDrag.C
+could not open file RASModel.H for source file subModels/forceModel/GidaspowDrag/GidaspowDrag.C
+Making dependency list for source file subModels/forceModel/Archimedes/Archimedes.C
+could not open file RASModel.H for source file subModels/forceModel/Archimedes/Archimedes.C
+Making dependency list for source file subModels/forceModel/interface/interface.C
+could not open file RASModel.H for source file subModels/forceModel/interface/interface.C
+Making dependency list for source file subModels/forceModel/gradPForce/gradPForce.C
+could not open file RASModel.H for source file subModels/forceModel/gradPForce/gradPForce.C
+Making dependency list for source file subModels/forceModel/viscForce/viscForce.C
+could not open file RASModel.H for source file subModels/forceModel/viscForce/viscForce.C
+Making dependency list for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file RASModel.H for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file omp.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/forceModel/particleCellVolume/particleCellVolume.C
+Making dependency list for source file subModels/forceModel/WenYuDrag/WenYuDrag.C
+could not open file RASModel.H for source file subModels/forceModel/WenYuDrag/WenYuDrag.C
+Making dependency list for source file subModels/forceModel/OzelDrag/OzelDrag.C
+could not open file RASModel.H for source file subModels/forceModel/OzelDrag/OzelDrag.C
+Making dependency list for source file subModels/forceModel/IgciDrag/IgciDrag.C
+could not open file RASModel.H for source file subModels/forceModel/IgciDrag/IgciDrag.C
+Making dependency list for source file subModels/forceModel/MilioliDrag/MilioliDrag.C
+could not open file RASModel.H for source file subModels/forceModel/MilioliDrag/MilioliDrag.C
+Making dependency list for source file subModels/forceModel/periodicPressure/periodicPressure.C
+could not open file RASModel.H for source file subModels/forceModel/periodicPressure/periodicPressure.C
+Making dependency list for source file subModels/forceModel/averageSlipVel/averageSlipVel.C
+could not open file RASModel.H for source file subModels/forceModel/averageSlipVel/averageSlipVel.C
+Making dependency list for source file subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C
+could not open file RASModel.H for source file subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C
+Making dependency list for source file subModels/forceModel/BeetstraDrag/BeetstraDrag.C
+could not open file RASModel.H for source file subModels/forceModel/BeetstraDrag/BeetstraDrag.C
+Making dependency list for source file subModels/forceModel/BeetstraDrag/multiphaseFlowBasic/multiphaseFlowBasic.C
+could not open file RASModel.H for source file subModels/forceModel/BeetstraDrag/multiphaseFlowBasic/multiphaseFlowBasic.C
+Making dependency list for source file subModels/probeModel/probeModel/probeModel.C
+could not open file RASModel.H for source file subModels/probeModel/probeModel/probeModel.C
+Making dependency list for source file subModels/probeModel/probeModel/newProbeModel.C
+could not open file RASModel.H for source file subModels/probeModel/probeModel/newProbeModel.C
+Making dependency list for source file subModels/probeModel/noProbe/noProbe.C
+could not open file RASModel.H for source file subModels/probeModel/noProbe/noProbe.C
+could not open file omp.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/probeModel/noProbe/noProbe.C
+Making dependency list for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file RASModel.H for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file omp.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/probeModel/particleProbe/particleProbe.C
+Making dependency list for source file subModels/IOModel/IOModel/IOModel.C
+could not open file RASModel.H for source file subModels/IOModel/IOModel/IOModel.C
+Making dependency list for source file subModels/IOModel/IOModel/newIOModel.C
+could not open file RASModel.H for source file subModels/IOModel/IOModel/newIOModel.C
+Making dependency list for source file subModels/IOModel/noIO/noIO.C
+could not open file RASModel.H for source file subModels/IOModel/noIO/noIO.C
+Making dependency list for source file subModels/IOModel/basicIO/basicIO.C
+could not open file RASModel.H for source file subModels/IOModel/basicIO/basicIO.C
+Making dependency list for source file subModels/IOModel/trackIO/trackIO.C
+could not open file RASModel.H for source file subModels/IOModel/trackIO/trackIO.C
+Making dependency list for source file subModels/IOModel/sophIO/sophIO.C
+could not open file RASModel.H for source file subModels/IOModel/sophIO/sophIO.C
+Making dependency list for source file subModels/voidFractionModel/voidFractionModel/voidFractionModel.C
+could not open file RASModel.H for source file subModels/voidFractionModel/voidFractionModel/voidFractionModel.C
+Making dependency list for source file subModels/voidFractionModel/voidFractionModel/newVoidFractionModel.C
+could not open file RASModel.H for source file subModels/voidFractionModel/voidFractionModel/newVoidFractionModel.C
+Making dependency list for source file subModels/voidFractionModel/centreVoidFraction/centreVoidFraction.C
+could not open file RASModel.H for source file subModels/voidFractionModel/centreVoidFraction/centreVoidFraction.C
+Making dependency list for source file subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C
+could not open file RASModel.H for source file subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C
+Making dependency list for source file subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C
+could not open file RASModel.H for source file subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C
+Making dependency list for source file subModels/locateModel/locateModel/locateModel.C
+could not open file RASModel.H for source file subModels/locateModel/locateModel/locateModel.C
+Making dependency list for source file subModels/locateModel/locateModel/newLocateModel.C
+could not open file RASModel.H for source file subModels/locateModel/locateModel/newLocateModel.C
+Making dependency list for source file subModels/locateModel/standardSearch/standardSearch.C
+could not open file RASModel.H for source file subModels/locateModel/standardSearch/standardSearch.C
+Making dependency list for source file subModels/locateModel/engineSearch/engineSearch.C
+could not open file RASModel.H for source file subModels/locateModel/engineSearch/engineSearch.C
+Making dependency list for source file subModels/locateModel/engineSearchIB/engineSearchIB.C
+could not open file RASModel.H for source file subModels/locateModel/engineSearchIB/engineSearchIB.C
+Making dependency list for source file subModels/meshMotionModel/meshMotionModel/meshMotionModel.C
+could not open file RASModel.H for source file subModels/meshMotionModel/meshMotionModel/meshMotionModel.C
+Making dependency list for source file subModels/meshMotionModel/meshMotionModel/newMeshMotionModel.C
+could not open file RASModel.H for source file subModels/meshMotionModel/meshMotionModel/newMeshMotionModel.C
+Making dependency list for source file subModels/meshMotionModel/noMeshMotion/noMeshMotion.C
+could not open file RASModel.H for source file subModels/meshMotionModel/noMeshMotion/noMeshMotion.C
+Making dependency list for source file subModels/momCoupleModel/momCoupleModel/momCoupleModel.C
+could not open file RASModel.H for source file subModels/momCoupleModel/momCoupleModel/momCoupleModel.C
+Making dependency list for source file subModels/momCoupleModel/momCoupleModel/newMomCoupleModel.C
+could not open file RASModel.H for source file subModels/momCoupleModel/momCoupleModel/newMomCoupleModel.C
+Making dependency list for source file subModels/momCoupleModel/explicitCouple/explicitCouple.C
+could not open file RASModel.H for source file subModels/momCoupleModel/explicitCouple/explicitCouple.C
+Making dependency list for source file subModels/momCoupleModel/implicitCouple/implicitCouple.C
+could not open file RASModel.H for source file subModels/momCoupleModel/implicitCouple/implicitCouple.C
+Making dependency list for source file subModels/momCoupleModel/noCouple/noCouple.C
+could not open file RASModel.H for source file subModels/momCoupleModel/noCouple/noCouple.C
+Making dependency list for source file subModels/momCoupleModel/explicitCoupleSource/explicitCoupleSource.C
+could not open file RASModel.H for source file subModels/momCoupleModel/explicitCoupleSource/explicitCoupleSource.C
+Making dependency list for source file subModels/regionModel/regionModel/regionModel.C
+could not open file RASModel.H for source file subModels/regionModel/regionModel/regionModel.C
+Making dependency list for source file subModels/regionModel/regionModel/newRegionModel.C
+could not open file RASModel.H for source file subModels/regionModel/regionModel/newRegionModel.C
+Making dependency list for source file subModels/regionModel/allRegion/allRegion.C
+could not open file RASModel.H for source file subModels/regionModel/allRegion/allRegion.C
+Making dependency list for source file subModels/dataExchangeModel/dataExchangeModel/dataExchangeModel.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/dataExchangeModel/dataExchangeModel.C
+Making dependency list for source file subModels/dataExchangeModel/dataExchangeModel/newDataExchangeModel.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/dataExchangeModel/newDataExchangeModel.C
+could not open file sys/stat.h for source file subModels/dataExchangeModel/dataExchangeModel/newDataExchangeModel.C
+Making dependency list for source file subModels/dataExchangeModel/oneWayVTK/oneWayVTK.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/oneWayVTK/oneWayVTK.C
+Making dependency list for source file subModels/dataExchangeModel/twoWayFiles/twoWayFiles.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/twoWayFiles/twoWayFiles.C
+could not open file sys/stat.h for source file subModels/dataExchangeModel/twoWayFiles/twoWayFiles.C
+Making dependency list for source file subModels/dataExchangeModel/noDataExchange/noDataExchange.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/noDataExchange/noDataExchange.C
+Making dependency list for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file RASModel.H for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file sys/stat.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file limits.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file stdint.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file inttypes.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file erf.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file direct.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file math.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file sleep.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file omp.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+could not open file stdio.h for source file subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C
+Making dependency list for source file subModels/averagingModel/averagingModel/averagingModel.C
+could not open file RASModel.H for source file subModels/averagingModel/averagingModel/averagingModel.C
+Making dependency list for source file subModels/averagingModel/averagingModel/newAveragingModel.C
+could not open file RASModel.H for source file subModels/averagingModel/averagingModel/newAveragingModel.C
+Making dependency list for source file subModels/averagingModel/dilute/dilute.C
+could not open file RASModel.H for source file subModels/averagingModel/dilute/dilute.C
+Making dependency list for source file subModels/averagingModel/dense/dense.C
+could not open file RASModel.H for source file subModels/averagingModel/dense/dense.C
+Making dependency list for source file subModels/clockModel/clockModel/clockModel.C
+could not open file omp.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/pmpicxx.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/constants.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/functions.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/datatype.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/exception.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/op.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/status.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/request.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/group.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/comm.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/win.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/file.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/errhandler.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/intracomm.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/topology.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/intercomm.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/info.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/pop_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/pgroup_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/pstatus_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/prequest_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/datatype_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/functions_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/request_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/comm_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/intracomm_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/topology_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/intercomm_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/group_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/op_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/errhandler_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/status_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/info_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/win_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file ompi/mpi/cxx/file_inln.h for source file subModels/clockModel/clockModel/clockModel.C
+could not open file RASModel.H for source file subModels/clockModel/clockModel/clockModel.C
+Making dependency list for source file subModels/clockModel/clockModel/newClockModel.C
+could not open file RASModel.H for source file subModels/clockModel/clockModel/newClockModel.C
+Making dependency list for source file subModels/clockModel/standardClock/standardClock.C
+could not open file RASModel.H for source file subModels/clockModel/standardClock/standardClock.C
+Making dependency list for source file subModels/clockModel/noClock/noClock.C
+could not open file RASModel.H for source file subModels/clockModel/noClock/noClock.C
+Making dependency list for source file subModels/liggghtsCommandModel/liggghtsCommandModel/liggghtsCommandModel.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/liggghtsCommandModel/liggghtsCommandModel.C
+Making dependency list for source file subModels/liggghtsCommandModel/liggghtsCommandModel/newLiggghtsCommandModel.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/liggghtsCommandModel/newLiggghtsCommandModel.C
+Making dependency list for source file subModels/liggghtsCommandModel/execute/execute.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/execute/execute.C
+Making dependency list for source file subModels/liggghtsCommandModel/runLiggghts/runLiggghts.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/runLiggghts/runLiggghts.C
+Making dependency list for source file subModels/liggghtsCommandModel/writeLiggghts/writeLiggghts.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/writeLiggghts/writeLiggghts.C
+Making dependency list for source file subModels/liggghtsCommandModel/readLiggghtsData/readLiggghtsData.C
+could not open file RASModel.H for source file subModels/liggghtsCommandModel/readLiggghtsData/readLiggghtsData.C
+Making dependency list for source file subModels/smoothingModel/smoothingModel/smoothingModel.C
+could not open file RASModel.H for source file subModels/smoothingModel/smoothingModel/smoothingModel.C
+Making dependency list for source file subModels/smoothingModel/smoothingModel/newSmoothingModel.C
+could not open file RASModel.H for source file subModels/smoothingModel/smoothingModel/newSmoothingModel.C
+Making dependency list for source file subModels/smoothingModel/noSmoothing/noSmoothing.C
+could not open file RASModel.H for source file subModels/smoothingModel/noSmoothing/noSmoothing.C
+Making dependency list for source file subModels/smoothingModel/constDiffSmoothing/constDiffSmoothing.C
+could not open file RASModel.H for source file subModels/smoothingModel/constDiffSmoothing/constDiffSmoothing.C
+SOURCE=cfdemCloud/cfdemCloud.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/cfdemCloud.o
+In file included from cfdemCloud/cfdemCloud.C:34:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+cfdemCloud/cfdemCloud.C: In constructor ‘Foam::cfdemCloud::cfdemCloud(const Foam::fvMesh&)’:
+cfdemCloud/cfdemCloud.C:215:2: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+SOURCE=subModels/forceModel/forceModel/forceModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/forceModel.o
+In file included from subModels/forceModel/forceModel/forceModel.C:33:0:
+subModels/forceModel/forceModel/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/forceModel/newForceModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newForceModel.o
+In file included from subModels/forceModel/forceModel/newForceModel.C:34:0:
+subModels/forceModel/forceModel/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/noDrag/noDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noDrag.o
+In file included from subModels/forceModel/noDrag/noDrag.H:42:0,
+                 from subModels/forceModel/noDrag/noDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/checkCouplingInterval.o
+In file included from subModels/forceModel/checkCouplingInterval/checkCouplingInterval.H:45:0,
+                 from subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C: In member function ‘virtual void Foam::checkCouplingInterval::setForce() const’:
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:45: warning: use of old-style cast [-Wold-style-cast]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:45: warning: use of old-style cast [-Wold-style-cast]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:57: warning: use of old-style cast [-Wold-style-cast]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:57: warning: use of old-style cast [-Wold-style-cast]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:66: warning: use of old-style cast [-Wold-style-cast]
+subModels/forceModel/checkCouplingInterval/checkCouplingInterval.C:115:66: warning: use of old-style cast [-Wold-style-cast]
+SOURCE=subModels/forceModel/GidaspowDrag/GidaspowDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/GidaspowDrag.o
+In file included from subModels/forceModel/GidaspowDrag/GidaspowDrag.H:46:0,
+                 from subModels/forceModel/GidaspowDrag/GidaspowDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/Archimedes/Archimedes.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/Archimedes.o
+In file included from subModels/forceModel/Archimedes/Archimedes.H:45:0,
+                 from subModels/forceModel/Archimedes/Archimedes.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/interface/interface.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/interface.o
+In file included from subModels/forceModel/interface/interface.H:42:0,
+                 from subModels/forceModel/interface/interface.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/gradPForce/gradPForce.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/gradPForce.o
+In file included from subModels/forceModel/gradPForce/gradPForce.H:47:0,
+                 from subModels/forceModel/gradPForce/gradPForce.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/viscForce/viscForce.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/viscForce.o
+In file included from subModels/forceModel/viscForce/viscForce.H:43:0,
+                 from subModels/forceModel/viscForce/viscForce.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/particleCellVolume/particleCellVolume.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/particleCellVolume.o
+In file included from subModels/forceModel/particleCellVolume/particleCellVolume.H:43:0,
+                 from subModels/forceModel/particleCellVolume/particleCellVolume.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+subModels/forceModel/particleCellVolume/particleCellVolume.C: In member function ‘virtual void Foam::particleCellVolume::setForce() const’:
+subModels/forceModel/particleCellVolume/particleCellVolume.C:113:102: warning: use of old-style cast [-Wold-style-cast]
+SOURCE=subModels/forceModel/WenYuDrag/WenYuDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/WenYuDrag.o
+In file included from subModels/forceModel/WenYuDrag/WenYuDrag.H:48:0,
+                 from subModels/forceModel/WenYuDrag/WenYuDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/WenYuDrag/WenYuDrag.C:34:0:
+subModels/forceModel/WenYuDrag/WenYuDrag.H: In constructor ‘Foam::WenYuDrag::WenYuDrag(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/WenYuDrag/WenYuDrag.H:75:10: warning: ‘Foam::WenYuDrag::velFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.H:73:10: warning:   ‘Foam::word Foam::WenYuDrag::densityFieldName_’ [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/WenYuDrag/WenYuDrag.C:34:0:
+subModels/forceModel/WenYuDrag/WenYuDrag.H:79:10: warning: ‘Foam::WenYuDrag::voidfractionFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.H:77:10: warning:   ‘Foam::word Foam::WenYuDrag::granVelFieldName_’ [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/WenYuDrag/WenYuDrag.C:34:0:
+subModels/forceModel/WenYuDrag/WenYuDrag.H:89:27: warning: ‘Foam::WenYuDrag::voidfraction_’ will be initialized after [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.H:71:10: warning:   ‘bool Foam::WenYuDrag::verbose_’ [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.C:59:1: warning:   when initialized here [-Wreorder]
+subModels/forceModel/WenYuDrag/WenYuDrag.C: In member function ‘virtual void Foam::WenYuDrag::setForce() const’:
+subModels/forceModel/WenYuDrag/WenYuDrag.C:172:12: warning: unused variable ‘v_t’ [-Wunused-variable]
+SOURCE=subModels/forceModel/OzelDrag/OzelDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/OzelDrag.o
+In file included from subModels/forceModel/OzelDrag/OzelDrag.H:48:0,
+                 from subModels/forceModel/OzelDrag/OzelDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/OzelDrag/OzelDrag.C:34:0:
+subModels/forceModel/OzelDrag/OzelDrag.H: In constructor ‘Foam::OzelDrag::OzelDrag(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/OzelDrag/OzelDrag.H:72:10: warning: ‘Foam::OzelDrag::velFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.H:70:10: warning:   ‘Foam::word Foam::OzelDrag::densityFieldName_’ [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/OzelDrag/OzelDrag.C:34:0:
+subModels/forceModel/OzelDrag/OzelDrag.H:76:10: warning: ‘Foam::OzelDrag::voidfractionFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.H:74:10: warning:   ‘Foam::word Foam::OzelDrag::granVelFieldName_’ [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/OzelDrag/OzelDrag.C:34:0:
+subModels/forceModel/OzelDrag/OzelDrag.H:86:27: warning: ‘Foam::OzelDrag::voidfraction_’ will be initialized after [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.H:68:10: warning:   ‘bool Foam::OzelDrag::verbose_’ [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/OzelDrag/OzelDrag.C:34:0:
+subModels/forceModel/OzelDrag/OzelDrag.H:114:12: warning: ‘Foam::OzelDrag::Kzz_’ will be initialized after [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.H:108:10: warning:   ‘bool Foam::OzelDrag::velslipdiff_’ [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/OzelDrag/OzelDrag.C:34:0:
+subModels/forceModel/OzelDrag/OzelDrag.H:108:10: warning: ‘Foam::OzelDrag::velslipdiff_’ will be initialized after [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.H:78:10: warning:   ‘Foam::word Foam::OzelDrag::gravityFieldName_’ [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C:59:1: warning:   when initialized here [-Wreorder]
+subModels/forceModel/OzelDrag/OzelDrag.C: In member function ‘virtual void Foam::OzelDrag::setForce() const’:
+subModels/forceModel/OzelDrag/OzelDrag.C:172:12: warning: variable ‘grav’ set but not used [-Wunused-but-set-variable]
+subModels/forceModel/OzelDrag/OzelDrag.C:173:12: warning: unused variable ‘v_t’ [-Wunused-variable]
+SOURCE=subModels/forceModel/IgciDrag/IgciDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/IgciDrag.o
+In file included from subModels/forceModel/IgciDrag/IgciDrag.H:48:0,
+                 from subModels/forceModel/IgciDrag/IgciDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/IgciDrag/IgciDrag.C:34:0:
+subModels/forceModel/IgciDrag/IgciDrag.H: In constructor ‘Foam::IgciDrag::IgciDrag(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/IgciDrag/IgciDrag.H:72:10: warning: ‘Foam::IgciDrag::velFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.H:70:10: warning:   ‘Foam::word Foam::IgciDrag::densityFieldName_’ [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/IgciDrag/IgciDrag.C:34:0:
+subModels/forceModel/IgciDrag/IgciDrag.H:76:10: warning: ‘Foam::IgciDrag::voidfractionFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.H:74:10: warning:   ‘Foam::word Foam::IgciDrag::granVelFieldName_’ [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/IgciDrag/IgciDrag.C:34:0:
+subModels/forceModel/IgciDrag/IgciDrag.H:86:27: warning: ‘Foam::IgciDrag::voidfraction_’ will be initialized after [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.H:68:10: warning:   ‘bool Foam::IgciDrag::verbose_’ [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/IgciDrag/IgciDrag.C:34:0:
+subModels/forceModel/IgciDrag/IgciDrag.H:108:10: warning: ‘Foam::IgciDrag::velslipdiff_’ will be initialized after [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.H:78:10: warning:   ‘Foam::word Foam::IgciDrag::gravityFieldName_’ [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.C:59:1: warning:   when initialized here [-Wreorder]
+subModels/forceModel/IgciDrag/IgciDrag.C: In member function ‘virtual void Foam::IgciDrag::setForce() const’:
+subModels/forceModel/IgciDrag/IgciDrag.C:182:18: warning: unused variable ‘alpsmax’ [-Wunused-variable]
+SOURCE=subModels/forceModel/MilioliDrag/MilioliDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/MilioliDrag.o
+In file included from subModels/forceModel/MilioliDrag/MilioliDrag.H:48:0,
+                 from subModels/forceModel/MilioliDrag/MilioliDrag.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/MilioliDrag/MilioliDrag.C:34:0:
+subModels/forceModel/MilioliDrag/MilioliDrag.H: In constructor ‘Foam::MilioliDrag::MilioliDrag(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/MilioliDrag/MilioliDrag.H:72:10: warning: ‘Foam::MilioliDrag::velFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.H:70:10: warning:   ‘Foam::word Foam::MilioliDrag::densityFieldName_’ [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/MilioliDrag/MilioliDrag.C:34:0:
+subModels/forceModel/MilioliDrag/MilioliDrag.H:76:10: warning: ‘Foam::MilioliDrag::voidfractionFieldName_’ will be initialized after [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.H:74:10: warning:   ‘Foam::word Foam::MilioliDrag::granVelFieldName_’ [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/MilioliDrag/MilioliDrag.C:34:0:
+subModels/forceModel/MilioliDrag/MilioliDrag.H:86:27: warning: ‘Foam::MilioliDrag::voidfraction_’ will be initialized after [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.H:68:10: warning:   ‘bool Foam::MilioliDrag::verbose_’ [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.C:59:1: warning:   when initialized here [-Wreorder]
+In file included from subModels/forceModel/MilioliDrag/MilioliDrag.C:34:0:
+subModels/forceModel/MilioliDrag/MilioliDrag.H:108:10: warning: ‘Foam::MilioliDrag::velslipdiff_’ will be initialized after [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.H:78:10: warning:   ‘Foam::word Foam::MilioliDrag::gravityFieldName_’ [-Wreorder]
+subModels/forceModel/MilioliDrag/MilioliDrag.C:59:1: warning:   when initialized here [-Wreorder]
+SOURCE=subModels/forceModel/periodicPressure/periodicPressure.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/periodicPressure.o
+In file included from subModels/forceModel/periodicPressure/periodicPressure.H:47:0,
+                 from subModels/forceModel/periodicPressure/periodicPressure.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/periodicPressure/periodicPressure.C:34:0:
+subModels/forceModel/periodicPressure/periodicPressure.H: In constructor ‘Foam::periodicPressure::periodicPressure(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/periodicPressure/periodicPressure.H:89:12: warning: ‘Foam::periodicPressure::rhoParticle_’ will be initialized after [-Wreorder]
+subModels/forceModel/periodicPressure/periodicPressure.H:81:10: warning:   ‘Foam::word Foam::periodicPressure::gravityFieldName_’ [-Wreorder]
+subModels/forceModel/periodicPressure/periodicPressure.C:57:1: warning:   when initialized here [-Wreorder]
+SOURCE=subModels/forceModel/averageSlipVel/averageSlipVel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/averageSlipVel.o
+In file included from subModels/forceModel/averageSlipVel/averageSlipVel.H:44:0,
+                 from subModels/forceModel/averageSlipVel/averageSlipVel.C:34:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+In file included from subModels/forceModel/averageSlipVel/averageSlipVel.C:34:0:
+subModels/forceModel/averageSlipVel/averageSlipVel.H: In constructor ‘Foam::averageSlipVel::averageSlipVel(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/forceModel/averageSlipVel/averageSlipVel.H:75:28: warning: ‘Foam::averageSlipVel::rhoFluid_’ will be initialized after [-Wreorder]
+subModels/forceModel/averageSlipVel/averageSlipVel.H:73:12: warning:   ‘Foam::scalar Foam::averageSlipVel::rhoParticle_’ [-Wreorder]
+subModels/forceModel/averageSlipVel/averageSlipVel.C:60:1: warning:   when initialized here [-Wreorder]
+SOURCE=subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/OzelSundaresanDrag.o
+In file included from subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.H:54:0,
+                 from subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C:38:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C: In member function ‘virtual void Foam::OzelSundaresanDrag::setForce() const’:
+subModels/forceModel/OzelSundaresanDrag/OzelSundaresanDrag.C:213:12: warning: variable ‘Kii’ set but not used [-Wunused-but-set-variable]
+SOURCE=subModels/forceModel/BeetstraDrag/BeetstraDrag.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/BeetstraDrag.o
+In file included from subModels/forceModel/BeetstraDrag/BeetstraDrag.H:50:0,
+                 from subModels/forceModel/BeetstraDrag/BeetstraDrag.C:35:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/forceModel/BeetstraDrag/multiphaseFlowBasic/multiphaseFlowBasic.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/multiphaseFlowBasic.o
+SOURCE=subModels/probeModel/probeModel/probeModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/probeModel.o
+SOURCE=subModels/probeModel/probeModel/newProbeModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newProbeModel.o
+SOURCE=subModels/probeModel/noProbe/noProbe.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noProbe.o
+SOURCE=subModels/probeModel/particleProbe/particleProbe.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/particleProbe.o
+subModels/probeModel/particleProbe/particleProbe.C: In constructor ‘Foam::particleProbe::particleProbe(const Foam::dictionary&, Foam::cfdemCloud&, Foam::word, char*)’:
+subModels/probeModel/particleProbe/particleProbe.C:87:20: warning: passing NULL to non-pointer argument 1 of ‘Foam::List<T>::List(Foam::label) [with T = Foam::word; Foam::label = int]’ [-Wconversion-null]
+subModels/probeModel/particleProbe/particleProbe.C:87:20: warning: passing NULL to non-pointer argument 1 of ‘Foam::List<T>::List(Foam::label) [with T = Foam::OFstream*; Foam::label = int]’ [-Wconversion-null]
+subModels/probeModel/particleProbe/particleProbe.C: In member function ‘virtual void Foam::particleProbe::initialize(Foam::word, Foam::word) const’:
+subModels/probeModel/particleProbe/particleProbe.C:139:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/probeModel/particleProbe/particleProbe.C:139:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/probeModel/particleProbe/particleProbe.C:140:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/probeModel/particleProbe/particleProbe.C:140:19: warning: use of old-style cast [-Wold-style-cast]
+SOURCE=subModels/IOModel/IOModel/IOModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/IOModel.o
+SOURCE=subModels/IOModel/IOModel/newIOModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newIOModel.o
+SOURCE=subModels/IOModel/noIO/noIO.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noIO.o
+SOURCE=subModels/IOModel/basicIO/basicIO.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/basicIO.o
+SOURCE=subModels/IOModel/trackIO/trackIO.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/trackIO.o
+SOURCE=subModels/IOModel/sophIO/sophIO.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/sophIO.o
+In file included from subModels/IOModel/sophIO/sophIO.C:36:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/voidFractionModel/voidFractionModel/voidFractionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/voidFractionModel.o
+SOURCE=subModels/voidFractionModel/voidFractionModel/newVoidFractionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newVoidFractionModel.o
+SOURCE=subModels/voidFractionModel/centreVoidFraction/centreVoidFraction.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/centreVoidFraction.o
+SOURCE=subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/dividedVoidFraction.o
+subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C:198:7: warning: "/*" within comment [-Wcomment]
+subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C: In member function ‘virtual void Foam::dividedVoidFraction::setvoidFraction(double** const&, double**&, double**&, double**&) const’:
+subModels/voidFractionModel/dividedVoidFraction/dividedVoidFraction.C:216:12: warning: unused variable ‘voidfractionAtPos’ [-Wunused-variable]
+SOURCE=subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/trilinearVoidFraction.o
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C: In member function ‘virtual void Foam::trilinearVoidFraction::setvoidFraction(double** const&, double**&, double**&, double**&) const’:
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C:90:12: warning: unused variable ‘pi’ [-Wunused-variable]
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C:92:12: warning: unused variable ‘cellID’ [-Wunused-variable]
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C:93:12: warning: unused variable ‘radius’ [-Wunused-variable]
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C:94:12: warning: unused variable ‘Volp’ [-Wunused-variable]
+subModels/voidFractionModel/trilinearVoidFraction/trilinearVoidFraction.C:95:12: warning: unused variable ‘partCellVol’ [-Wunused-variable]
+SOURCE=subModels/locateModel/locateModel/locateModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/locateModel.o
+SOURCE=subModels/locateModel/locateModel/newLocateModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newLocateModel.o
+SOURCE=subModels/locateModel/standardSearch/standardSearch.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/standardSearch.o
+SOURCE=subModels/locateModel/engineSearch/engineSearch.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/engineSearch.o
+SOURCE=subModels/locateModel/engineSearchIB/engineSearchIB.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/engineSearchIB.o
+SOURCE=subModels/meshMotionModel/meshMotionModel/meshMotionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/meshMotionModel.o
+SOURCE=subModels/meshMotionModel/meshMotionModel/newMeshMotionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newMeshMotionModel.o
+SOURCE=subModels/meshMotionModel/noMeshMotion/noMeshMotion.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noMeshMotion.o
+SOURCE=subModels/momCoupleModel/momCoupleModel/momCoupleModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/momCoupleModel.o
+SOURCE=subModels/momCoupleModel/momCoupleModel/newMomCoupleModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newMomCoupleModel.o
+SOURCE=subModels/momCoupleModel/explicitCouple/explicitCouple.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/explicitCouple.o
+In file included from subModels/momCoupleModel/explicitCouple/explicitCouple.C:36:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/momCoupleModel/implicitCouple/implicitCouple.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/implicitCouple.o
+In file included from subModels/momCoupleModel/implicitCouple/implicitCouple.C:36:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/momCoupleModel/noCouple/noCouple.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noCouple.o
+SOURCE=subModels/momCoupleModel/explicitCoupleSource/explicitCoupleSource.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/explicitCoupleSource.o
+In file included from subModels/momCoupleModel/explicitCoupleSource/explicitCoupleSource.C:36:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/regionModel/regionModel/regionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/regionModel.o
+SOURCE=subModels/regionModel/regionModel/newRegionModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newRegionModel.o
+SOURCE=subModels/regionModel/allRegion/allRegion.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/allRegion.o
+In file included from subModels/regionModel/allRegion/allRegion.C:39:0:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+SOURCE=subModels/dataExchangeModel/dataExchangeModel/dataExchangeModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/dataExchangeModel.o
+SOURCE=subModels/dataExchangeModel/dataExchangeModel/newDataExchangeModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newDataExchangeModel.o
+SOURCE=subModels/dataExchangeModel/oneWayVTK/oneWayVTK.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/oneWayVTK.o
+SOURCE=subModels/dataExchangeModel/twoWayFiles/twoWayFiles.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/twoWayFiles.o
+SOURCE=subModels/dataExchangeModel/noDataExchange/noDataExchange.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noDataExchange.o
+SOURCE=subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/twoWayMPI.o
+In file included from subModels/dataExchangeModel/twoWayMPI/twoWayMPI.H:50:0,
+                 from subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:33:
+lnInclude/forceModel.H:168:36: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C: In constructor ‘Foam::twoWayMPI::twoWayMPI(const Foam::dictionary&, Foam::cfdemCloud&)’:
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:75:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:75:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:76:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:76:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:81:20: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:81:20: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:89:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:97:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:97:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:111:22: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:111:22: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:111:32: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:111:32: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:113:24: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:113:24: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:113:35: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:113:35: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C: In member function ‘virtual void Foam::twoWayMPI::getData(Foam::word, Foam::word, double** const&, Foam::label) const’:
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:148:58: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:148:72: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C: In member function ‘virtual void Foam::twoWayMPI::getData(Foam::word, Foam::word, int** const&, Foam::label) const’:
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:161:58: warning: use of old-style cast [-Wold-style-cast]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:161:69: warning: deprecated conversion from string constant to ‘char*’ [-Wwrite-strings]
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C: In member function ‘virtual void Foam::twoWayMPI::giveData(Foam::word, Foam::word, double** const&, const char*) const’:
+subModels/dataExchangeModel/twoWayMPI/twoWayMPI.C:175:57: warning: use of old-style cast [-Wold-style-cast]
+SOURCE=subModels/averagingModel/averagingModel/averagingModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/averagingModel.o
+SOURCE=subModels/averagingModel/averagingModel/newAveragingModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newAveragingModel.o
+SOURCE=subModels/averagingModel/dilute/dilute.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/dilute.o
+SOURCE=subModels/averagingModel/dense/dense.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/dense.o
+SOURCE=subModels/clockModel/clockModel/clockModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/clockModel.o
+subModels/clockModel/clockModel/clockModel.C: In member function ‘virtual void Foam::clockModel::evalPar() const’:
+subModels/clockModel/clockModel/clockModel.C:194:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:194:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:196:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:196:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:210:14: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:210:14: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:37: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:37: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:49: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:49: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:61: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:227:61: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:228:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:228:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:37: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:37: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:49: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:49: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:61: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:235:61: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:236:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:236:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:278:14: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:278:14: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C: In member function ‘virtual void Foam::clockModel::normHist() const’:
+subModels/clockModel/clockModel/clockModel.C:326:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:326:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:328:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:328:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:337:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:343:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:349:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:38: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:50: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:355:59: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C: In member function ‘void Foam::clockModel::plotHist(double, std::string, int, int) const’:
+subModels/clockModel/clockModel/clockModel.C:390:63: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:390:63: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:390:75: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:390:75: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:390:84: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:390:84: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C: In member function ‘void Foam::clockModel::Hist() const’:
+subModels/clockModel/clockModel/clockModel.C:404:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:404:19: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C: In member function ‘void Foam::clockModel::getRAMUsage() const’:
+subModels/clockModel/clockModel/clockModel.C:424:20: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:424:20: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:426:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:426:16: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:468:26: warning: use of old-style cast [-Wold-style-cast]
+subModels/clockModel/clockModel/clockModel.C:469:25: warning: use of old-style cast [-Wold-style-cast]
+SOURCE=subModels/clockModel/clockModel/newClockModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newClockModel.o
+SOURCE=subModels/clockModel/standardClock/standardClock.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/standardClock.o
+SOURCE=subModels/clockModel/noClock/noClock.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noClock.o
+SOURCE=subModels/liggghtsCommandModel/liggghtsCommandModel/liggghtsCommandModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/liggghtsCommandModel.o
+SOURCE=subModels/liggghtsCommandModel/liggghtsCommandModel/newLiggghtsCommandModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newLiggghtsCommandModel.o
+SOURCE=subModels/liggghtsCommandModel/execute/execute.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/execute.o
+SOURCE=subModels/liggghtsCommandModel/runLiggghts/runLiggghts.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/runLiggghts.o
+SOURCE=subModels/liggghtsCommandModel/writeLiggghts/writeLiggghts.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/writeLiggghts.o
+SOURCE=subModels/liggghtsCommandModel/readLiggghtsData/readLiggghtsData.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/readLiggghtsData.o
+SOURCE=subModels/smoothingModel/smoothingModel/smoothingModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/smoothingModel.o
+SOURCE=subModels/smoothingModel/smoothingModel/newSmoothingModel.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/newSmoothingModel.o
+SOURCE=subModels/smoothingModel/noSmoothing/noSmoothing.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/noSmoothing.o
+SOURCE=subModels/smoothingModel/constDiffSmoothing/constDiffSmoothing.C ;  g++ -m64 -Dlinux64 -DWM_DP -Wall -Wextra -Wno-unused-parameter -Wold-style-cast -Wnon-virtual-dtor -O3  -DNoRepository -ftemplate-depth-100 -DOMPI_SKIP_MPICXX -I/opt/OpenFOAM/ThirdParty-2.2.x/platforms/linux64Gcc/openmpi-1.7.2/include -I ./cfdemParticle -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/finiteVolume/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/transportModels -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/turbulenceModels/incompressible/turbulenceModel -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/meshTools/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/lagrangian/basic/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/containers/HashTables/labelHashSet -I/home/hema2/aozel/CFDEM/LIGGGHTS-PRINCETON/src  -IlnInclude -I. -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OpenFOAM/lnInclude -I/opt/OpenFOAM/OpenFOAM-2.2.x/src/OSspecific/POSIX/lnInclude   -fPIC -c $SOURCE -o Make/linux64GccDPOpt/constDiffSmoothing.o
+'/home/shakti/aozel/OpenFOAM/aozel-2.2.x/platforms/linux64GccDPOpt/lib/liblagrangianCFDEM-PRINCETON.so' is up to date.
